@@ -1,6 +1,6 @@
 # convert_to_webp
 
-oh-my-zsh plugin to convert jpg | jpeq to webp using webp package
+oh-my-zsh plugin to convert `jpg` | `jpeq` to webp using webp package
 
 ## Prerequisite
 
@@ -12,10 +12,10 @@ brew install webp
 
 2.  Clone this repo into [oh-my-zsh](http://github.com/robbyrussell/oh-my-zsh) plugins directory:
 
-    ```bash
-    cd ~/.oh-my-zsh/custom/plugins
-    git clone git@github.com:Plesin/convert_to_webp.git
-    ```
+```bash
+cd ~/.oh-my-zsh/custom/plugins
+git clone git@github.com:Plesin/convert_to_webp.git
+```
 
 3.  Activate the plugin in `~/.zshrc`:
 
@@ -23,7 +23,7 @@ brew install webp
 plugins=( ... convert_to_webp)
 ```
 
-- Source `~/.zshrc` to take changes into account:
+4. Source `~/.zshrc` to take changes into account:
 
 ```bash
 source ~/.zshrc
