@@ -54,3 +54,7 @@ convert_to_webp 50
 ```bash
 ~/Downloads/Photos/webp
 ```
+
+### Preview
+
+![Terminal output](./images/preview.webp)
