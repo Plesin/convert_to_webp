@@ -1,6 +1,6 @@
 # convert_to_webp
 
-oh-my-zsh plugin to convert `jpg` | `jpeq` to webp using webp package
+`oh-my-zsh` plugin to convert `jpg` | `jpeq` to `webp` using `cwebp` package
 
 ## Prerequisite
 
@@ -20,7 +20,10 @@ git clone git@github.com:Plesin/convert_to_webp.git
 3.  Activate the plugin in `~/.zshrc`:
 
 ```bash
-plugins=( ... convert_to_webp)
+plugins=(
+    ...
+    convert_to_webp
+)
 ```
 
 4. Source `~/.zshrc` to take changes into account:
